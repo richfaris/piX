@@ -1,80 +1,13 @@
-    1  textedit
-    2  pwd
-    3  ls
-    4  mkdir catmemes
-    5  mkdir src
-    6  mv catmemes src
-    7  cd src
-    8  ls
-    9  mv cat* cat
-   10  ls
-   11  cd cat
-   12  vi test.html
-   13  cat test.html
-   14  vi test.html
-   15  ls
-   16  file *
-   17  ls kitty_files
-   18  file *
-   19  cd kitty_*
-   20  ls
-   21  file *
-   22  ls
-   23  sudo shutdown -r now
-   24  dfr
-   25  df
-   26  ps
-   27  ps -ef
-   28  dmesg
-   29  sync
-   30  shutdown now
-   31  sudo apt-get update && sudo apt-get upgrade
-   32  sudo raspi-config
-   33  raspistill -o image.jpg
-   34  raspivid
-   35  raspivid -o testvideo.h264 -t 10000
-   36  sync
-   37  shutdown now
-   38  sudo raspi-config
-   39  ip a
-   40  passwd
-   41  who
-   42  ps
-   43  ps -ef
-   44  dfr
-   45  df
-   46  top
-   47  ls
-   48  find / -name 'config.*' -print
-   49  sudo find / -name 'config.*' -print
-   50  ip a
-   51  ls
-   52  cd src
-   53  ls
-   54  ls cat
-   55  mkdir camera
-   56  cd camera
-   57  ls
-   58  sudo raspi-config
-   59  raspistill -o image.jpg
-   60  cd ~
-   61  sudo apt-get install python pip
-   62  uname 
-   63  uname -a
-   64  cat /etc/os-release
+    This is the section as to what I did to install OpenCV
+    
    65  sudo apt-get update
    66  sudo apt-get upgrade
    67  sudo rpi-update
    68  sudo reboot
-   69  ps
-   70  ps-ef
-   71  ps -ef
-   72  sudo apgt-get install build-essential git cmake pkg-config
+   69  
    73  sudo apt-get install build-essential git cmake pkg-config
    74  sudo apt-get install libjpeg-dev libriff5-dev libphg12-dev
-   75  sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev lib-png12-dev
-   76  sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev lib-pngl2-dev
-   77  sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpngl2-dev
+
    78  sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
    79  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
    80  sudo apt-get install libxvidcore-dev libx264-dev
@@ -104,17 +37,11 @@
   104  cd build
   105  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_C_EXAMPLES=ON -D INSTALL_PYTHON_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.0.0/modules \
   106  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_C_EXAMPLES=ON -D INSTALL_PYTHON_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.3.0/modules -D BUILD_EXAMPLES=ON ..
-  107  pwd
-  108  make -j4
-  109  make clean
+
   110  make -j1
   111  sudo make install
   112  sudo ldconfig
-  113  ls /usr/local/lib
-  114  ls /usr/local/lib/python3.4*
-  115  ls /usr/local/lib/py*
-  116  ls /usr/local/lib/python3.5/
-  117  ls /usr/local/lib/python3.5//site-packages
+
   118  workon cv
   119  cd
   120  python 
@@ -123,19 +50,11 @@
   123  cd ~/.virtualenvs/cv/lib/python3.5/site-packages
   124  ls
   125  ln -s /usr/local/lib/python3.5/site-packages/cv2.so cv2.so
-  126  cd
-  127  worlon cv
-  128  workon cv
-  129  python
-  130  h
-  131  history
+
+  127  workon cv
+
   132  cd ~/.virtualenvs/cv/lib/python3.5/site-packages
-  133  ls
-  134  ls cv2.so
-  135  ls /usr/local/lib
-  136  ls /usr/local/lib/python3.5
-  137  ls /usr/local/lib/python3.5/site*
-  138  ls
+
   139  ln -s /usr/local/lib/python3.5/site*/*.so cv2.so
   140  rm cv2.so
   141  ln -s /usr/local/lib/python3.5/site*/*.so cv2.so
@@ -146,58 +65,12 @@
   146  sudo apg-get update
   147  sudo apt-get update
   148  sudo apt-get upgrade
-  149  ls
-  150  pwd
-  151  who
-  152  ps -ef |grep vnc
-  153  reboot
-  154  sudo sync
-  155  sudo reboot
-  156  ls
-  157  sudo raspi-config
-  158  ps -ef
-  159  who
-  160  ps -ef
-  161  ifconfig
-  162  sudo raspi-config
-  163  ifconfig
-  164  ipconfig
-  165  ifconfig
-  166  ls
-  167  cd src
-  168  ls
-  169  cd Sm*
-  170  ls
-  171  cd camera
-  172  ls
-  173  cd Sm*
-  174  ls
-  175  grep print *.py
-  176  vi main.py
-  177  grep print *.py
-  178  workon cv
-  179  source ~/.python
+
   180  source ~/.profile
   181  workon cv
-  182  python3
-  183  ls
-  184  grep print *
-  185  ls
-  186  cd models
-  187  ls
-  188  cd ..
-  189  ls
-  190  cd templates
-  191  ls
-  192  cat index.html
-  193  pip install -r requirements.txt
-  194  ls
-  195  cd ..
-  196  ls
+
   197  pip install -r requirements.txt
-  198  vi mail.py
-  199  ls *.py
-  200  which python
+
   201  python main.py
   202  vi mail.py
   203  python main.py
